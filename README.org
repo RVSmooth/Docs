@@ -1,0 +1,18 @@
+#+title: Readme
+#+author: RVSmooth
+
+* Table of Contents :toc:
+- [[#my-documentation-repository][My Documentation repository]]
+- [[#list-of-documents][List of Documents]]
+  - [[#windows-vs-linux][Windows V/s Linux]]
+- [[#warning][Warning]]
+
+* My Documentation repository
+It contains several of my documents on various subjects I like to dwell on.
+
+* List of Documents
+** [[https://github.com/RVSmooth/Docs/blob/main/Windows_Vs_Linux.org][Windows V/s Linux]]
+
+* Warning
+Documents in this repository are based on factual evidence and experince of my own. If you believe there is a misinterpretation or space for improvement, please feel free to open an [[https://github.com/RVSmooth/Docs/issues][issue]] or submit a [[https://github.com/RVSmooth/Docs/pulls][pull request]].
+
