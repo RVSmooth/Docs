@@ -1,5 +1,6 @@
+#+title: Windows V/s GNU/Linux 
 #+author: RVSmooth
-#+description: Windows Versus Linux
+#+description: A comparison b/w Windows and GNU/Linux
 #+startup: showeverything
 
 * Table of Contents :toc:
@@ -49,37 +50,28 @@ GNU/Linux, as the name suggests, was originated from two significant revolutiona
 ** Application Management
 *** Windows
 - Applications, in windows, can be installed by going to the website of the specific software and then grab the released .exe or .msi (binaries) and then proceed to install the software by a few icon clicks. (70-80% people use this method)
-  
 - Applications can also be installed using microsoft store (20-30% use this method)
-
 - Also some people use third-party package manager like winget.
-
 - Because the software is not downloaded from microsoft directly, there is a risk, it may contain virus or malware or any elements that can hamper user data or privacy. 
 
 *** GNU/Linux
 - Linux has an amazing centralised package management system. Which means all the packages are available at one place. Whether you use a CLI package manager or GUI application store(provided in almost all DEs), the installation in seamless and the packages are downloaded from the distributions' repositories.
 
   Applications like snaps and flatpak enhance the linux experience by availing all software acorss all different linux distributions.
-
 - However good may be the CLI package manager, you can always grab the binary from the specific software's websites and install it by a few icon clicks as well.
-
 - All the softwares in the repositories of Linux distros, goes through rogorous testing before making it user-available. Some stable distros like [[https://www.debian.org/][debian]] in its stable releases, test packages in three stages before releasing to the stable repos(7 months or so). Even rolling distros like [[https://archlinux.org][ArchLinux]] test packages until they are proven to be safe.
-  
+
   So the chances of getting some anomaly in cases of software in linux is non-existent.
 
 
 * Cost and Licensing
 ** Windows
 - Windows is a proprietary piece of software (which means the [[https://en.wikipedia.org/wiki/Source_code][source code]] of the software remains private to general public). So one cannot try to determine whether the software has any malicious part in it and thus have to live trusting Microsoft that they do not do anything suspicious and hard user's privacy.
-
 - Even if someone wants to contribute to the project they cannot because of its proprietary nature. 
-
 - Windows is a paid software as well, although one may use it without purchasing a license from Microsoft: which would be very limiting.
 
 ** GNU/Linux
 - Linux(Kernel) has its sourcecode available on [[https://git.kernel.org/][git.kernel.org]]. And the other free softwares have their source code on their favoured code hosting site.
-
 - One may suggest changes, report issues or contribute directly via patches written by himself if he(s) wants to.
-
 - Linux is licensed with the [[https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html][GPLv2]] and it is free software. This means that user have the freedom to run, modify and redistribute the software without additional restrictions if they comply witht he license.
 
