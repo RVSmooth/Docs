@@ -1,0 +1,85 @@
+#+author: RVSmooth
+#+description: Windows Versus Linux
+#+startup: showeverything
+
+* Table of Contents :toc:
+- [[#introduction][Introduction]]
+- [[#overview][Overview]]
+  - [[#operating-system-1-windows][Operating System 1: Windows]]
+  - [[#operating-system-2-gnulinux][Operating System 2: GNU/Linux]]
+- [[#user-interface][User Interface]]
+  - [[#windows][Windows]]
+  - [[#gnulinux][GNU/Linux]]
+- [[#software-compatibility][Software Compatibility]]
+  - [[#application-support][Application Support]]
+  - [[#application-management][Application Management]]
+- [[#cost-and-licensing][Cost and Licensing]]
+  - [[#windows-1][Windows]]
+  - [[#gnulinux-1][GNU/Linux]]
+
+* Introduction
+An Operating System(OS) is a software layer between the user and hardware, with components that help the user operate the hardware at will by providing input to the system. From Graphical User Interface to a Command Line Interface all are a part it. It is the host to all the applications & services it runs.
+
+* Overview
+** Operating System 1: Windows
+Initially named as =Interface Manager=, [[https://en.wikipedia.org/wiki/Microsoft_Windows][Windows]] was launched on November 20, 1985 as a graphical extension of [[https://en.wikipedia.org/wiki/MS-DOS][MS-DOS]] by [[https://en.wikipedia.org/wiki/Bill_Gates][Bill Gates]]. The main aim of it was to provide an user-friendly interface by featuring graphical windows rather than text commands. 
+
+** Operating System 2: GNU/Linux
+GNU/Linux, as the name suggests, was originated from two significant revolutionary projects: [[https://en.wikipedia.org/wiki/GNU_Project][The GNU Project]], initiated bt [[https://en.wikipedia.org/wiki/Richard_Stallman][Richard Stallman]] in 1983 to create a free [[https://en.wikipedia.org/wiki/Unix][Unix]]-like operating system and [[https://en.wikipedia.org/wiki/Linux][Linux Kernel]], developed by [[https://en.wikipedia.org/wiki/Linus_Torvalds][Linus Torvalds]] in 1991. The union of both the projects is what we call a GNU/Linux distribution, commonly known as Linux. 
+
+* User Interface
+** Windows
+- The User Interface(UI) of Windows is primarily focused on the *Graphical User Interface(GUI)* model, which allows users to interact with the operating System. Which is fairly easy to use.
+- Although it has a *Command-Line Interface(CLI)*, it is inferior to as that of Linux's due to lack of standardization, limited scripting capabilities, proper documentation, system management, package management and more.
+- Windows does not come with any internal themeing utilities or features, where all applications might not look the same(theming-wise) without any third-party tools. Same can be said for icons.
+** GNU/Linux
+- GNU/Linux has a wide range of *GUIs*, for you to choose, which are called [[https://wiki.archlinux.org/title/Desktop_environment][Desktop Environments(DEs)]]. Which is fairly easy to use as well. One might use a GNU/Linux desktop using only *CLI* or *GUI* as he pleases. 
+- The *CLI* in Linux is far more matured than Windows's *CLI*. Because of advanced scripting with bash, central package management system, manuals (man pages), useful utilities and more.
+- GNU/Linux has matured themeing capabilities to create a uniform theming look across all applications utilising [[https://en.wikipedia.org/wiki/GTK][GTK]] and [[https://en.wikipedia.org/wiki/QT][QT]], which are an integral part of the *DEs*. 
+
+
+* Software Compatibility
+** Application Support
+*** Windows
+- Windows has the widest range of native applications, with most major companies developing softwares for Windows first. 
+- Generally, all sorts of softwares are available for it.
+*** GNU/Linux
+- GNU/Linux also has a growing ecosystem of native applications, especially for [[https://opensource.org/osd][open-source]] softwares.
+- However some software may not be available on the Linux platform (e.g., Adobe products). Although it is not the fault of Linux but of the organization or company, that produces the software.
+** Application Management
+*** Windows
+- Applications, in windows, can be installed by going to the website of the specific software and then grab the released .exe or .msi (binaries) and then proceed to install the software by a few icon clicks. (70-80% people use this method)
+  
+- Applications can also be installed using microsoft store (20-30% use this method)
+
+- Also some people use third-party package manager like winget.
+
+- Because the software is not downloaded from microsoft directly, there is a risk, it may contain virus or malware or any elements that can hamper user data or privacy. 
+
+*** GNU/Linux
+- Linux has an amazing centralised package management system. Which means all the packages are available at one place. Whether you use a CLI package manager or GUI application store(provided in almost all DEs), the installation in seamless and the packages are downloaded from the distributions' repositories.
+
+  Applications like snaps and flatpak enhance the linux experience by availing all software acorss all different linux distributions.
+
+- However good may be the CLI package manager, you can always grab the binary from the specific software's websites and install it by a few icon clicks as well.
+
+- All the softwares in the repositories of Linux distros, goes through rogorous testing before making it user-available. Some stable distros like [[https://www.debian.org/][debian]] in its stable releases, test packages in three stages before releasing to the stable repos(7 months or so). Even rolling distros like [[https://archlinux.org][ArchLinux]] test packages until they are proven to be safe.
+  
+  So the chances of getting some anomaly in cases of software in linux is non-existent.
+
+
+* Cost and Licensing
+** Windows
+- Windows is a proprietary piece of software (which means the [[https://en.wikipedia.org/wiki/Source_code][source code]] of the software remains private to general public). So one cannot try to determine whether the software has any malicious part in it and thus have to live trusting Microsoft that they do not do anything suspicious and hard user's privacy.
+
+- Even if someone wants to contribute to the project they cannot because of its proprietary nature. 
+
+- Windows is a paid software as well, although one may use it without purchasing a license from Microsoft: which would be very limiting.
+
+** GNU/Linux
+- Linux(Kernel) has its sourcecode available on [[https://git.kernel.org/][git.kernel.org]]. And the other free softwares have their source code on their favoured code hosting site.
+
+- One may suggest changes, report issues or contribute directly via patches written by himself if he(s) wants to.
+
+- Linux is licensed with the [[https://www.gnu.org/licenses/old-licenses/lgpl-2.0.html][GPLv2]] and it is free software. This means that user have the freedom to run, modify and redistribute the software without additional restrictions if they comply witht he license.
+
