@@ -1,6 +1,6 @@
 #+title: My Documentation Repository
 #+author: RVSmooth
-
+Moved to https://gitlab.com/dotsmooth/Docs
 It contains several of my documents on various subjects I like to dwell on.
 
 * Table of Contents :toc:
